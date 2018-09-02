@@ -31,7 +31,7 @@ class RenderComponentPreview extends Component {
         <URLComponent
           componentName="Alert"
           url={url}
-          onComponentLoaded={this.onComponentLoadedCallback}
+          onComponentLoaded={this.onImportLoad}
         >
           Alert Text
         </URLComponent>
